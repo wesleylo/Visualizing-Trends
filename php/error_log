@@ -1,0 +1,10 @@
+[25-Apr-2016 23:48:04 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/weslo/public_html/visualizing-trends/php/get-trends.php on line 27
+[25-Apr-2016 23:48:40 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/weslo/public_html/visualizing-trends/php/get-trends.php on line 27
+[25-Apr-2016 23:49:03 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/weslo/public_html/visualizing-trends/php/get-trends.php on line 27
+[26-Apr-2016 01:11:10 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/weslo/public_html/visualizing-trends/php/get-trends.php on line 27
+[26-Apr-2016 01:11:47 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/weslo/public_html/visualizing-trends/php/get-trends.php on line 27
+[26-Apr-2016 01:36:22 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/weslo/public_html/visualizing-trends/php/get-trends.php on line 27
+[26-Apr-2016 01:36:30 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/weslo/public_html/visualizing-trends/php/get-trends.php on line 27
+[26-Apr-2016 01:52:49 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/weslo/public_html/visualizing-trends/php/get-trends.php on line 27
+[26-Apr-2016 05:44:08 America/Chicago] PHP Fatal error:  Call to undefined function alert() in /home4/weslo/public_html/visualizing-trends/php/twitter.php on line 3
+[26-Apr-2016 06:12:59 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/weslo/public_html/visualizing-trends/php/twitter.php on line 27

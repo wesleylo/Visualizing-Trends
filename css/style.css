@@ -1,0 +1,220 @@
+body {
+    background: #f7f7f7;
+}
+
+.insta-img-caption {
+    font-size: 15px;
+    padding: 10px;
+}
+
+circle {
+	cursor: pointer;
+}
+
+#top-content {
+	padding-top: 15px;
+}
+
+.article {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.border-bottom-hairline::after {
+    width: 100%;
+    background-color: #D5D5D5;
+    content: "";
+    display: block;
+    height: 1px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.1875rem;
+}
+
+#pb-root {
+    background: #F7F7F7 none repeat scroll 0 0;
+    max-width: 1248px !important;
+    margin: 0 auto;
+}
+
+#instagram-container, #twitter-container {
+    background-color: white;
+	display:none;
+	margin:50px auto;
+	border:5px solid #000;
+}
+
+a:hover {
+	text-decoration: none !important;
+}
+
+body {
+	font-size: 14px;
+}
+
+.avatar {
+    float: left;
+    margin-top: 4px;
+    margin-left: -58px;
+    width: 48px;
+    height: 48px;
+    border-radius: 5px;
+}
+
+.t-item {
+padding-left: 86px;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+.fullname {
+    font-weight: bold;
+    color: #292f33;
+    font-size: 17px;
+}
+.fullname:hover, .fullname:active {
+	color: #6B2FFE;
+	text-decoration: underline !important;
+}
+
+.username {
+	padding-left: .5em;
+	font-weight: normal;
+    color: #8899a6;
+    direction: ltr;
+    unicode-bidi: embed;
+}
+.username b {
+	font-weight: normal;
+	    font-size: 14px;
+}
+
+.time a, span.time {
+	   font-size: 14px;
+    color: #8899a6;
+}
+.time a:hover, span.time:hover, .time a:active, span.time:active {
+	color: #6B2FFE;
+	text-decoration: underline !important;
+}
+
+
+
+h3 {
+    font-family: Arial, Sans-Serif;
+    font-size: 16px;
+    line-height: 1.78;
+    color: #333;
+    font-weight: normal;
+    margin: 0;
+}
+h2 {
+    font-family: Arial, Sans-Serif;
+    font-weight: 700;
+    font-size: 17px;
+}
+h6 {
+    font-family: Arial, Sans-Serif;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: 500;
+}
+.wpe-card {
+    background: #fff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    text-align: left;
+    color: #333;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 1px;
+    padding-bottom: 0 !important;
+    text-shadow: none;
+    margin-top: 1.875rem;
+}
+
+#bootstrap-overrides h1 {
+    font: 48px Arial, Sans-Serif;
+    font-weight:600;
+    line-height: 1.15em;
+    color: #2a2a2a;
+    margin-top: 0;
+    margin-bottom: 10px;
+    display: inline-block
+}
+#bootstrap-overrides p {
+    font-family: Arial, Sans-Serif;
+    font-size: 16px !important;
+    line-height: 1.3em;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 871px) {
+    #bootstrap-overrides h6 {
+        font-size: 50px;
+    }
+    .hc-pic {
+        padding-right: 20px;
+    }
+    .bs-pic {
+        padding-right: 20px;
+    }
+    .wpe-card.hcvbs {
+        padding-left: 30px !important;
+    }
+}
+@media only screen and (max-width: 871px) {
+    #bootstrap-overrides h6 {
+        font-size: 45px;
+    }
+}
+@media only screen and (max-width: 780px) {
+    #bootstrap-overrides h6 {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    #bootstrap-overrides h6 {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    #bootstrap-overrides h6 {
+        font-size: 25px;
+    }
+}
+@media only screen and (min-width: 75em) {
+    #bootstrap-overrides h1 {
+        font-size: 56px;
+        font-weight:600;
+        line-height: 60px
+    }
+    #bootstrap-overrides p {
+        font-size: 1.3rem;
+    }
+}
+}
+@media only screen and (max-width: 48em) {
+    #bootstrap-overrides h1 {
+        font-size: 40px;
+        line-height: 44px;
+        margin-bottom: 0.5rem;
+    }
+    #bootstrap-overrides p {
+        font-size: 1.125rem;
+        margin-bottom: 0.625rem;
+    }
+}
+@media only screen and (max-width: 30em) {
+    #bootstrap-overrides h1 {
+        font-size: 32px;
+        line-height: 36px;
+        margin-bottom: 0.25rem;
+    }
+    #bootstrap-overrides p {
+        font-size: 1rem;
+        margin-bottom: 0.625rem;
+    }
+}
