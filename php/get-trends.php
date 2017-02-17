@@ -3,7 +3,7 @@ ini_set('display_errors', 1);
 require_once('TwitterAPIExchange.php');
 
 $settings = array(
-    'oauth_access_token' => "106913520-212H1VL61lc5GK9uj24Dvzd4UYkOmovVPjY9vE84",
+  'oauth_access_token' => "106913520-212H1VL61lc5GK9uj24Dvzd4UYkOmovVPjY9vE84",
     'oauth_access_token_secret' => "RgAIsAmi9N3MeGzE6OnodGoFLNCCRtix5wlZoFycd3RvM",
     'consumer_key' => "DOKClhb2QrQOtTIkqhbHWIUhj",
     'consumer_secret' => "4UwCp3N6BRy9341JnhpG9U943cmqurfMD5cPKPc75ftlFuHSlc"
@@ -16,10 +16,10 @@ $twitter = new TwitterAPIExchange($settings);
 echo $twitter->setGetfield($getfield)
             ->buildOauth($url, $requestMethod)
             ->performRequest();
-             
+
 $tweetData = json_decode($twitter->setGetfield($getfield)
             ->buildOauth($url, $requestMethod)
-            ->performRequest(), $assoc = TRUE);            
+            ->performRequest(), $assoc = TRUE);
 
 $topTrend = "N/A";
 $trend_URL = "";

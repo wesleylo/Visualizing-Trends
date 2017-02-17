@@ -10,8 +10,8 @@
     		<link rel="stylesheet" type="text/css" href="css/style.css" />
     		<link rel="stylesheet" type="text/css" href="css/instagram-grid.css" />
 	</head>
-	
-	
+
+
 	<body id="bootstrap-overrides">
         <div id="pb-root">
                 <section id="top-content" class="col-xs-12 layout">
@@ -34,17 +34,16 @@
                                 <div id="twitter-container"></div>
     				<div id="instagram-container"></div>
                         </section>
-                </div>  
-    		    
-    		    
-    		    		
+                </div>
+
+
+
     		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js" type="text/javascript"></script>
     		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
     		<script src="js/tweetLinkIt.js" type="text/javascript"></script>
 
-    		<script src="js/instagram-grid.js" type="text/javascript"></script>
     		<script src="js/script.js" type="text/javascript"></script>
-    		
+
     		<script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.6/proj4.js"></script>
     		<script src="http://code.highcharts.com/maps/highmaps.js"></script>
     		<script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
