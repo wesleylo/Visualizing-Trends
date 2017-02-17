@@ -1,6 +1,4 @@
 function pageComplete(){
-        $('.tweet').tweetLinkify();
+  $('.tweet').tweetLinkify();
 }
-$( document ).ready(function() {
-
-});
+$( document ).ready(function() {});

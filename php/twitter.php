@@ -19,7 +19,7 @@ $twitter = new TwitterAPIExchange($settings);
 /*echo $twitter->setGetfield($getfield)
              ->buildOauth($url, $requestMethod)
              ->performRequest();*/
-    
+
 $tweetData = json_decode($twitter->setGetfield($getfield)
               ->buildOauth($url, $requestMethod)
               ->performRequest(),$assoc = TRUE);
@@ -27,7 +27,7 @@ $tweetData = json_decode($twitter->setGetfield($getfield)
 foreach($tweetData['statuses'] as $items)
     {
     	$date = strtotime($items['created_at']);
-    	
+
         echo "<div class='t-item row'>";
         echo "<a class ='content' href='http://twitter.com/" . $items['user']['screen_name'] . "' target='_blank'>";
         echo "<img class='avatar' src='" . $items['user']['profile_image_url'] . "' alt='avatar'>";
@@ -35,14 +35,14 @@ foreach($tweetData['statuses'] as $items)
         echo "<span class='username'>@<b>" . $items['user']['screen_name'] . "</b></span></a> - <a href='http://twitter.com/user/status/" .$items['id'] . "' target='_blank'><span class='time'>" . date("F j, g:i a", $date) . "</span></a>";
         //echo " - <a href='http://twitter.com/user/status/" .$items['id'] . "' target='_blank'><div class='time'>" . date("F j, g:i a", $date) . "</div></a>";
         //echo "</a>";
-        
+
         if (isset($items['retweeted_status'])) { //fix truncating retweets
 			$tweet = "RT @{$items['retweeted_status']['user']['screen_name']}: {$items['retweeted_status']['text']}";
 		} else {
 			$tweet = $items['text'];
 		}
         echo "<div class='tweet-container'><p class='tweet' lang='en'>" . $tweet . "</p></div></div>";
-        
+
         //echo "<div class='time'><a href='http://twitter.com/user/status/" .$items['id'] . "' target='_blank'>" . date("F j, g:i a", $date) . "</a></div></div>";
     }
 echo "<script>pageComplete();</script>";

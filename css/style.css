@@ -2,10 +2,6 @@ body {
     background: #f7f7f7;
 }
 
-.insta-img-caption {
-    font-size: 15px;
-    padding: 10px;
-}
 
 circle {
 	cursor: pointer;
@@ -35,7 +31,7 @@ circle {
     margin: 0 auto;
 }
 
-#instagram-container, #twitter-container {
+#twitter-container {
     background-color: white;
 	display:none;
 	margin:50px auto;
