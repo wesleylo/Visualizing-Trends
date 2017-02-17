@@ -35,7 +35,6 @@ function createMap () {
           	events: {
               click: function () {
         				document.getElementById('twitter-container').style.display = 'block'
-        				document.getElementById('instagram-container').style.display = 'block'
         				$trend = this.trend
         				while ($trend.charAt(0) === '#') $trend = $trend.substr(1)
         				localStorage.setItem('trend', $trend)
